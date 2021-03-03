@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  --font: Ubuntu, "Open Sans", sans-serif;
+  --font-title: Oxygen, serif;
+  --font-size: 1rem;
+  --color_1: #011d27;
+  --color-2: #025964;
+  --color-3: #008f81;
+  --color-4: #0dfdc9;
+  --color-5: #d6fff5;
+  --radius: 0.2rem;
+}
+
+body {
+  margin: 1.5rem;
+  background: var(--color_1);
+}
+
+body,
+input,
+textarea,
+button {
+  font-size: var(--font-size);
+  font-family: var(--font);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-title);
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 1rem 0;
+}
+
+ul {
+  list-style: square;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+hr {
+  border: 2px solid black;
+  margin: 2rem auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-3);
+}
